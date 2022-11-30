@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <form>
+        <table>
+        <h1>Workshop #HTML - FORM</h1>
+        <tbody>
+            <tr>
+                <td>
+                    <label for="fname">ชื่อ&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+                    <input type="text" id="fname" name="fname"><br><br>
+                </td>        
+            </tr>
+            <tr>
+                <td>
+                    <label for="fname">สกุล&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="text" id="lname" name="lname"><br><br>
+                </td>        
+            </tr>
+            <tr>
+                <td>
+                    <label for="fname">วัน/เดือน/ปีเกิด&nbsp;</label>
+                    <input type="date" id="birthday" name="birthday"><br><br>
+                </td>    
+            </tr>
+            <tr>
+                <td>
+                    <label for="gender">เพศ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;</label>
+                    <input type="radio" name="colors" id="red">ชาย
+                    <input type="radio" name="colors" id="blue">หญิง<br><br>
+                </td>   
+            </tr>
+            <tr>
+                <td>
+                    <label for="picture">รูป&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+                    <input type="file" id="myFile" name="filename"><br><br>
+                </td>   
+            </tr>
+            <tr>
+                <td>
+                    <label for="address">ที่อยู่&emsp;&emsp;&emsp;&emsp;</label>
+                    <textarea id="address" name="address" rows="5" cols="20" style="vertical-align: middle;"></textarea><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="colors">สีที่ชอบ&emsp;&emsp;&nbsp;&nbsp;&nbsp;</label>
+                    <select name="colors" id="colors">
+                        <option value="volvo">สีแดง</option>
+                        <option value="saab">สีเหลือง</option>
+                        <option value="opel">สีเขียว</option>
+                        <option value="audi">สีฟ้า</option>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <br><br>
+                    <label for="stype">เเนวเพลงที่ชอบ</label>
+                    <input type="radio" name="stype" id="chivit">เพื่อชีวิต
+                    <input type="radio" name="stype" id="luktung">ลูกทุ่ง
+                    <input type="radio" name="stype" id="etc">อื่นๆ<br><br>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" id="yinyom" name="yinyom" >
+                    <label for="yinyom">ยินยอมให้เก็บข้อมูล</label><br><br>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit" style="right: 100;">
+                </td>   
+            </tr>
+        </tbody>
+     </table>
+    </form>
+</html>
